@@ -1,0 +1,6 @@
+username: ImdD3Demo
+projectname: water
+
+push to pages: ng build --prod --output-path docs --base-href water
+
+url: https://ImdD3Demo.github.io/water/
