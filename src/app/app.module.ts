@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { DataComponent } from './components/data/data.component';
 import { BarchartComponent } from './components/barchart/barchart.component';
+import { GettingstartedComponent } from './components/gettingstarted/gettingstarted.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BarchartComponent } from './components/barchart/barchart.component';
     HeaderComponent,
     HomeComponent,
     DataComponent,
-    BarchartComponent
+    BarchartComponent,
+    GettingstartedComponent
   ],
   imports: [
     BrowserModule,
