@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GettingstartedComponent } from './gettingstarted.component';
+import { LinechartComponent } from './linechart.component';
 
-describe('GettingstartedComponent', () => {
-  let component: GettingstartedComponent;
-  let fixture: ComponentFixture<GettingstartedComponent>;
+describe('LinechartComponent', () => {
+  let component: LinechartComponent;
+  let fixture: ComponentFixture<LinechartComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GettingstartedComponent ]
+      declarations: [ LinechartComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GettingstartedComponent);
+    fixture = TestBed.createComponent(LinechartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

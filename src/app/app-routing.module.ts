@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { DataComponent } from './components/data/data.component';
 import { BarchartComponent } from './components/barchart/barchart.component';
-import { GettingstartedComponent } from './components/gettingstarted/gettingstarted.component';
+import { LinechartComponent } from './components/linechart/linechart.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'gettingstarted', component: GettingstartedComponent },
-  { path: 'data', component: DataComponent },
   { path: 'barchart', component: BarchartComponent },
+  { path: 'linechart', component: LinechartComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
