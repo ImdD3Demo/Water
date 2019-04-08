@@ -203,6 +203,6 @@ export class HomeComponent implements OnInit {
       .attr('y', 0)
       .attr('width', 1200)
       .attr('height', 600)
-      .attr("xlink:href", "./assets/img/IMD.png");
+      .attr("xlink:href", "./assets/img/IMDfor.png");
   }
 }

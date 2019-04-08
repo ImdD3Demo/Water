@@ -15,15 +15,20 @@ export class LinechartComponent implements OnInit {
       type: 'line'
     },
     title: {
-      text: 'Litres of water going through a pipe'
+      text: 'Liters of water going through a pipe per second'
     },
     credits: {
       enabled: false
     },
+    yAxis: {
+      title: {
+          text: 'Liters'
+      }
+    },
     series: [
       {
         type: 'line',
-        name: "Litres of water",
+        name: "Liters of water per second",
         data: [1000, 1500, 2500]
       }
     ]

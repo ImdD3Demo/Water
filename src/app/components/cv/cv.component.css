@@ -31,7 +31,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     
     .mainDetails {
         padding: 25px 35px;
-        border-bottom: 2px solid #cf8a05;
+        border-bottom: 2px solid rgb(0, 121, 200);
         background: #ededed;
     }
     
@@ -95,7 +95,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     }
     
     #contactDetails ul li a:hover { 
-        color: #cf8a05;
+        color: rgb(0, 121, 200) ;
     }
     
     
@@ -126,7 +126,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
         font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 1.5em;
-        color: #cf8a05;
+        color: rgb(0, 121, 200) ;
     }
     
     .sectionContent h2 {

@@ -49,7 +49,7 @@ export class BarchartComponent implements OnInit {
     //now we add a rectangle foreach bar group, this makes the bars appear.
     bar.append("rect") //adds the rectangle
       .attr("width", _barWidth - 5) //sets the height on 30 minus 1 so the bars are not against eachother
-      .attr("fill", "rgb(39, 150, 111)") //sets the color.
+      .attr("fill", "rgb(0, 121, 200) ") //sets the color.
       .attr("height", 0)
       .transition()
       .duration(1000)
