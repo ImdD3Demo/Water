@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Chart } from 'angular-highcharts';
+
 import { interval } from 'rxjs';
 
 @Component({
